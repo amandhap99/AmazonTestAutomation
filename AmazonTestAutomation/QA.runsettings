@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<RunSettings>
+	<!--<MSTest>
+		<Parallelize>
+			<Workers>1</Workers>
+			<Scope>ClassLevel</Scope>
+		</Parallelize>
+	</MSTest>-->
+	<!-- Parameters used by tests at runtime -->
+	<RunConfiguration>
+		<EnvironmentVariables>
+			<Environment>QA</Environment>
+			<Test_Browser>chrome</Test_Browser>
+			<!-- chrome, safari, firefox, Internet Explorer, MicrosoftEdge -->
+			<Test_Browser_Version>95</Test_Browser_Version>
+			<!-- latest, latest-1, latest-2 -->
+			<RunInSauceLabs>false</RunInSauceLabs>
+			<BuildName>SmokeTest</BuildName>
+			<ClientWebAppUrl>https://www.amazon.com</ClientWebAppUrl>
+		</EnvironmentVariables>
+	</RunConfiguration>
+</RunSettings>
